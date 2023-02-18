@@ -31,14 +31,14 @@ input {
 button {
   cursor: pointer;
   padding: 12px;
-  background: #7c5cbf;
+  background: dodgerblue;
   border: none;
   color: #fff;
   font-size: 16px;
   transition: background 0.3s ease;
 }
 button:hover {
-  background: #6b47b8;
+  background: rgb(8, 64, 119);
 }
 button:disabled {
   cursor: default;
@@ -127,6 +127,7 @@ button:disabled {
   font-size: 22px;
   background: #2c2f3a;
   padding: 24px;
+  color: dodgerblue;
 }
 .list-title {
   font-weight: 500;
@@ -138,4 +139,24 @@ button:disabled {
   list-style-type: none;
   font-weight: 300;
   padding: 12px 24px 0;
+}
+#block {
+  width: 2%;
+}
+#image_id {
+  width: 200px;
+  height: 200px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }

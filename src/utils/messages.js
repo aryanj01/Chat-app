@@ -13,8 +13,22 @@ const generateLocationMessage = (username, url) => {
         createdAt: new Date().getTime()
     }
 }
-
+const generateFile = (username, filename) => {
+    return {
+        username,
+        filename,
+        createdAt: new Date().getTime()
+    }
+}
+const generateOldMessages = (username, room) => {
+    return {
+        username,
+        room,
+    }
+}
 module.exports = {
     generateMessage,
-    generateLocationMessage
+    generateLocationMessage,
+    generateFile,
+    generateOldMessages
 }
